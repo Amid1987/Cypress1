@@ -1,0 +1,25 @@
+{
+  "name": "7-06-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome:headed:laptop": "cypress run --headed --browser chrome --config-file cypressLaptop.config.js",
+    "cy:run:chrome:laptop": "cypress run --browser chrome --config-file сypressLaptop.config.js",
+    "cy:run:chrome:headed:phone": "cypress run --headed --browser chrome --config-file cypressPhone.config.js",
+    "cy:run:chrome:phone": "cypress run --browser chrome --config-file сypressPhone.config.js",
+    "cy:run:firefox:headed:laptop": "cypress run --headed --browser firefox --config-file сypressLaptop.config.js",
+    "cy:run:firefox:laptop": "cypress run --browser firefox --config-file сypressLaptop.config.js",
+    "cy:run:firefox:headed:phone": "cypress run --headed --browser firefox --config-file сypressPhone.config.js",
+    "cy:run:firefox:phone": "cypress run --browser firefox --config-file сypressPhone.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cypress": "^12.9.0"
+  }
+}
